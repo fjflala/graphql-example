@@ -1,0 +1,8 @@
+# import Film from 'film.graphql'
+# import Planet from 'planet.graphql'
+
+type Person {
+  name: String
+  films: [Film]
+  homeworld: Planet
+}

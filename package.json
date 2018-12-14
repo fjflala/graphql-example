@@ -1,0 +1,26 @@
+{
+  "name": "graphql-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:simple-node:hello": "node examples/simple_node_hello_playground.js",
+    "start:simple-node:starwars": "node examples/simple_node_starwars_playground.js",
+    "start:node-import:starwars": "node examples/simple_node_import/starwars_playground.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "graphql": "^14.0.2",
+    "graphql-config": "^2.2.1",
+    "graphql-import": "^0.7.1",
+    "graphql-tools": "^4.0.3",
+    "graphql-yoga": "^1.16.7",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}

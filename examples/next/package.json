@@ -1,0 +1,19 @@
+{
+  "name": "custom-server-express",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "graphql-tag": "^2.10.0",
+    "module": "^1.2.5",
+    "net": "^1.0.2",
+    "next": "latest",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
