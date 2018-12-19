@@ -3,7 +3,6 @@
  *  Also you can pass a variable instead of printing "World"
  */
 const { GraphQLServer } = require('graphql-yoga');
-const axios = require('axios');
 
 /**
  *  typeDefs
