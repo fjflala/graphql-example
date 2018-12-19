@@ -27,6 +27,7 @@ export default class DetailView extends Component {
   componentWillMount() {
     starwarsService.getPersonById(this.props.personID)
       .then(res => {
+        console.log(res)
         this.setState({
           data: res.data.getPerson
         });
